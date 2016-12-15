@@ -8,7 +8,7 @@ footer.page-footer {
 	background-color: #607d8b !important;
 }
 
-li {
+li, a, div {
 	font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -26,4 +26,12 @@ p {
     font-weight: 700;
     line-height: 23px;
     margin: 0 0 23px 0;
+}
+
+.section {
+	background-color: #FCFBE3;
+}
+
+.parallax-container {
+      height: 350px !important;
 }

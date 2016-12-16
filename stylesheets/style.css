@@ -35,3 +35,7 @@ p {
 .parallax-container {
   height: 350px !important;
 }
+
+.carousel .carousel-item img {
+  width: 50% !important;
+}

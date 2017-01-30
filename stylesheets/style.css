@@ -36,10 +36,6 @@ p {
   height: 350px !important;
 }
 
-.carousel .carousel-item img {
-  width: 50% !important;
-}
-
 a.back-to-top {
   display: none;
   width: 60px;
@@ -53,4 +49,12 @@ a.back-to-top {
   -moz-border-radius: 30px;
   border-radius: 30px;
   padding-top: 5px;
+}
+
+.carousel .carousel-item {
+  width: 400px !important;
+}
+
+#projects {
+  height: 450px;
 }

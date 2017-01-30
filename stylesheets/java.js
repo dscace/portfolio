@@ -1,7 +1,14 @@
 $(document).ready(function(){
   $('.parallax').parallax();
-  $('.carousel.carousel-slider').carousel({full_width: true});
-});
+	$('.carousel').carousel({
+  	padding: 200,
+  	fullWidth: true
+	});
+	autoplay()   
+		function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 3000);
+}});
 
 $("#button1").click(function(){
   $('html, body').animate({

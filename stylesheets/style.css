@@ -55,6 +55,11 @@ a.back-to-top {
   width: 400px !important;
 }
 
+.carousel-item {
+  border: 2px solid black;
+  height: 252px !important;
+}
+
 #projects {
   height: 450px;
 }
